@@ -1,4 +1,4 @@
-from random import random as rnd
+import random as rnd
 #*****************************************************************************
 def PlayerChoice():
     """
@@ -26,8 +26,9 @@ def ComputerChoice():
     Returns:
         str: The computer's choice of 'Rock', 'Paper', or 'Scissors'.
     """
-    choices = ['Rock', 'Paper', 'Scissors']
-    return choices[int(rnd() * 3)]
+    options = ['Rock', 'Paper', 'Scissors']
+    choices=rnd.choice(options)
+    return choices
 #*****************************************************************************
 def DetermineWinner(player, computer):
     """
