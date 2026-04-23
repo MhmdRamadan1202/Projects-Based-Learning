@@ -6,21 +6,6 @@ A simple calculator that evaluates math expressions safely (no eval).
 - Functions: abs, round, sqrt, sin, cos, tan, log, log10, exp, pow, max, min
 - Constants: pi, e, tau
 - Variables: You can assign variables: x = 2, y = 3; then use x*y + 5
-- Commands:
-    :help   -> show help
-    :vars   -> list variables
-    :clear  -> clear variables
-    :quit   -> exit
-
-Run:
-    python calculator.py
-Examples:
-    2 + 3 * 4
-    (1 + 2) ** 3 / 7
-    sqrt(2) * 10
-    x = 5
-    y = 3
-    x**2 + y**2
 """
 
 import ast
